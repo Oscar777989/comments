@@ -1,0 +1,285 @@
+ 
+/*  ================= Elementos generales  ========================  */
+
+body {
+  overflow-y: scroll;
+}
+
+.mont{
+  font-family: 'montserrat' !important;
+} 
+ 
+.swal2-title{
+  font-family: 'montserrat';
+  color: white !important;
+}
+
+
+/*.swal2-confirm{
+  font-family: 'montserrat';
+  width: 50%;
+  color: white;
+  padding: 7px 19px;
+  border-color: transparent;
+  border-radius: 7px;
+  background: linear-gradient(to right, #3b351fff, #a89a64ff);
+  font-size: 18px;
+  font-weight: 600;*/
+/*  border: none;*/
+/*  border: 1px solid #3e549a;*/
+/*  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);*/
+/*}*/
+
+.knockout{
+  font-family: 'knockout';
+}
+
+
+.f_white{
+  color: white !important;
+}
+
+::-webkit-scrollbar {
+  width: 0em !important;
+}
+
+::-webkit-scrollbar-track { 
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+
+/* ================= MODULOS ======================== */
+
+.main-sidebar{
+
+  height: 100vh !important;
+  max-height: 100vh !important;
+  position: fixed !important;
+
+}
+
+
+.gold-sht {
+  color: #3b351fff;
+}
+.green-sht {
+  color: #00ff84;
+}
+
+
+/* ==============   PAGINAS  ======================== */
+
+/* -------- BACKGROUNDS  -------- */
+
+.bg-sht{                              
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: bottom !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+
+/*  BACKGROUND FIJO */
+.bg-sht-p{                            
+  height: 100%; 
+}
+.bg-sht-r{                            
+  min-height: 100vh; 
+}
+/*  BACKGROUND DINAMICO  */ 
+.bg-sht-vh{                                              
+  height: 100vh; 
+}
+
+
+/* -------- DEGRADADOS  -------- */
+
+.bg-sht-gold-deg{
+    background:linear-gradient(to right, #3b351fff, #a89a64ff);
+    
+}
+
+.bg-sht-green{
+    background:linear-gradient(to right, #33cc33ff, #00944cff) !important;  
+}
+
+
+
+/*.accordion-button:not(.collapsed) {
+    color: white !important;
+}
+
+.accordion {
+    --bs-accordion-active-color: white !important;
+}*/
+
+
+.sex-input{          /*      Pendiente REmover   */
+ 	width: 100%; 
+ } 
+
+
+
+/*.subtitle{
+  color: white;
+  font-size: 35px;
+  margin-top: 190%;
+}*/
+/*.title-level{
+  margin-bottom: 10vh;
+  margin-top: -10vh;
+}*/
+
+
+/*.barr{
+  margin-top: 120px;
+width: 100%;
+}
+progress{
+
+  width: 50em!important;
+  background-color: red;
+}
+
+*/
+
+
+/*li{
+  display: flex;
+  align-items: center; 
+}*/
+
+/*@media (max-width: 1200px){
+
+    .read{
+      font-size: 3vw;
+      margin-bottom: -35vw !important;
+    }
+     .list-group {
+      flex-direction: column !important;
+      width: 90%;
+     }    
+li{
+  margin: 0px;
+}
+      .backg-selPrograma{
+          height: 105%;
+          width: 100vw;
+          display: flex;
+      }
+
+      .card1{
+        padding: 0.5rem;
+        width: 45vw !important;
+        height: 60vw !important;
+      }
+      .card-blocked{
+        padding: 0.5rem;
+        width: 45vw !important;
+        height: 60vw !important;
+      }
+      .title{
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+}*/
+
+
+/*@media (max-width: 576px){
+     .list-group {
+      flex-direction: column; !important;
+     }   */ 
+
+/*  .level-top{
+    height: 26vh;
+    width: 97vh;
+  }
+  .level-bottom{
+    height: 14vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    width: 100%;
+  }
+  .img_title_level{
+    position: absolute;
+    height: 53vh;
+    width: 124vh;
+    margin-right: -14px;
+    margin-top: -82px;
+    margin-bottom: -45px;
+  }
+  .backg-level{
+    background-repeat: no-repeat;
+    background-position: bottom center !important;
+    width: 100%;
+  }*/
+
+/*@media (max-width: 767px) {
+  .img_title_level{
+    height: 19vh;
+    margin-right: 14px;
+    margin-top: 35px;
+    margin-bottom: -45px;
+  }
+  .card1 {
+    padding: 0.5rem;
+    width: 45vw !important;
+    height: 93vw !important; 
+  }
+  .backg-level{
+    overflow-y: scroll;
+  }
+  .card-blocked {
+    height: 93vw !important;
+  }
+  .backg-level{
+    height: auto;
+  }
+  .level-tarjetas li{
+    margin-top: 3rem;
+  }
+}*/  
+/*}*/
+
+
+/*.read{
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60%;
+  margin-bottom: -250px !important;
+}*/
+
+/*.nivel{
+  padding-top: 110%;
+}*/
+
+/*
+.card1:hover{
+  transform: scale(1.1);
+  transform: translate3d(60px, 0px, 0px);
+    opacity: 1;
+    box-shadow:  0 0 4px #fff, 0 0 6px #fff, 0 0 8px #b09d67, 0 0 10px #b09d67, 0 0 12px #b09d67, 0 0 14px #b09d67, 0 0 16px #b09d67;
+    transform: translate3d(-30px, 0px, 0px);
+}*/
+
+
+
+@media (max-width: 576px){
+  .main-sidebar{
+    height: 95vh !important;
+    max-height: 95vh !important;
+    position: fixed !important;
+  }
+
+}

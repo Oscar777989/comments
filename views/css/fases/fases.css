@@ -1,0 +1,236 @@
+/*@font-face {
+  font-family: 'chaneyultra_extended';
+  src: url('../../fonts/cue.eot');
+  src: url('../../fonts/cue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*/
+/**{
+  font-family: 'chaneyultra_extended';
+    color: white;
+
+}*/
+
+
+h1{
+    font-family: 'chaneyultra_extended';
+    color: white;
+}
+
+.btn-link{
+  color: white !important;
+
+}
+.btn-link:hover{
+  text-decoration: none;
+    font-size: 22px;
+}
+.backg-phase{
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.card{
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 20px !important;
+  z-index: 100 !important;
+}
+.card-header{
+  background-color: black;
+  border: solid;
+  border-color: white;
+  color: white !important;
+  border-radius:  10px !important;
+  z-index: 100 !important;
+}
+
+.collapse{
+  background-color: #212121;
+/*  border-radius: 0 0 10px 10px  !important;*/
+  border:  none !important;
+  margin-top: -10px;
+  z-index: 0 !important;
+}
+.card-body{
+/*  border: none;
+  padding-bottom: 0px;*/
+
+}
+
+/*  ==================== Carrusel New ================================================= */
+.carrusel-item__details--subtitle {
+  margin: 0px;
+  margin-top: 10px;
+  font-weight: 100px;
+}
+.carrusel-item__details--title {
+  margin: 0px;
+  margin-top: 15px;
+  font-weight: 100px;
+  padding-right: 50px !important;
+}
+  .carrusel{
+/*    background-color: red;*/
+    width: 100%;
+    overflow-x: scroll;
+/*    overflow: scroll;*/
+    padding: 20px 20px 10px 20px;
+    position: relative;
+  }
+
+  .carrusel__container {
+/*    background-color: blue;*/
+    white-space: nowrap;
+/*    margin: 70px 0px;
+    padding-bottom: 10px;*/
+  }
+  .carrusel-item{
+    
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms;
+    transform-origin: center left;
+    position: relative;
+
+  }
+.title-card{
+  font-family: montserrat;
+  font-size: 18px;
+}
+
+
+
+
+  .carrusel-item:hover ~ .carrusel-item {
+    transform: translate3d(60px, 0px, 0px);
+  }
+  .carrusel__container:hover .carrusel-item {
+    opacity: 0.3;
+  }
+  .carrusel__container:hover .carrusel-item:hover {
+    transform: scale(1.1);
+    margin-right: 2rem;
+    opacity: 1;
+  }
+  .carrusel-item__img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .carrusel-item__img--blocked {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    -webkit-filter: grayscale(1) blur(8px);
+    filter: gray grayscale(1) blur(8px);
+    z-index: 0;
+  }
+
+
+.blocked {
+  position: absolute;
+  z-index: 1;
+  margin-left: 75px;
+  margin-top: 50px;
+  }
+
+
+.modulo_text{
+  font-size: 12px;
+}
+
+
+  .carrusel-item__details {
+/*    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);*/
+
+    background-color: none !important;
+    font-size: 14px;
+    opacity: 1;
+    transition: 450 ms opacity;
+    padding: 15px;
+/*    padding-right: 25px;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+/*    height: 20vh;*/
+  }
+
+
+  .carrusel-item__details--links {
+    height: 30px !important;
+  }
+
+  .carrusel-item__details:hover {
+    opacity: 1;
+    color: white;
+  }
+
+
+
+
+::-webkit-scrollbar {
+width: 12px;
+}
+::-webkit-scrollbar-thumb {
+ background: white;
+ border-radius: 6px;
+}
+
+  @media (max-width: 800px) {
+    .carrusel__container:hover .carrusel-item:hover {
+    transform: scale(1) !important;
+   }
+  }
+
+  @media (max-width: 800px) {
+   .carrusel-item:hover ~ .carrusel-item {
+    transform: translate3d(0px, 0px, 0px);
+   }
+  }
+
+
+
+
+  @media (max-width: 800px) {
+     .carrusel{
+      overflow-x: scroll;
+    }
+  }
+
+  @media (max-width: 800px) {
+     .seccion2{
+      padding: 20px 5px 20px 5px;
+    }
+  }
+
+   @media (max-width: 800px) {
+     .seccion2 ul{
+        margin-top: 20px;
+    }
+  }
+
+
+
+.notificaciones-carrusell{
+  background-color: black !important;
+}
+.gris-sht{
+  background-color: #212121;
+}

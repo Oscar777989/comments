@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'chaneyultra_extended';
+  src: url('../../fonts/chaney-ultra-extended/chaney-ultraextended-webfont.eot');
+  src: url('../../fonts/chaney-ultra-extended/chaney-ultraextended-webfont.ttf') format('truetype');
+  src: url('../../fonts/chaney-ultra-extended/chaney-ultraextended-webfont.woff');
+  src: url('../../fonts/chaney-ultra-extended/chaney-ultraextended-webfont.woff2');
+  font-weight: normal, bold, lighter, bolder;
+  font-style: normal, italic, oblique;
+
+}
+
+@font-face {
+  font-family: 'knockout';
+  src: url('../../fonts/knockout/Knockout-Bold.otf');
+  src: url('../../fonts/knockout/Knockout-Bold.ttf');
+  src: url('../../fonts/knockout/Knockout-Bold.woff');
+  src: url('../../fonts/knockout/Knockout-light.otf');
+  src: url('../../fonts/knockout/Knockout-Outline.otf');
+  src: url('../../fonts/knockout/Knockout-Regular.otf');
+  font-weight: normal, bold, lighter, bolder , 100 , 200 , 300 , 400 , 500 , 600 , 700 , 800 , 900;
+   font-style: normal, italic, oblique;
+
+}
+
+@font-face {
+  font-family: 'sht';
+  src: url('../../fonts/sht/sht.eot');
+  src: url('../../fonts/sht/sht.ttf');
+  src: url('../../fonts/sht/sht.woff');
+  font-weight: normal, bold, lighter, bolder , 100 , 200 , 300 , 400 , 500 , 600 , 700 , 800 , 900;
+   font-style: normal, italic, oblique;
+
+}
+@font-face {
+  font-family: 'gotham';
+  src: url('../../fonts/gotham/Gotham-Black.otf');
+  src: url('../../fonts/gotham/Gotham-Bold.otf');
+  src: url('../../fonts/gotham/Gotham-BookItalic.otf');
+  src: url('../../fonts/gotham/Gotham-Light.otf');
+  src: url('../../fonts/gotham/Gotham-Thin.otf');
+  src: url('../../fonts/gotham/Gotham-ThinItalic.otf');
+  src: url('../../fonts/gotham/Gotham-UltraItalic.otf');  
+  src: url('../../fonts/gotham/Gotham-XLight.otf');
+  src: url('../../fonts/gotham/Gotham-XLightItalic.otf');
+  
+  src: url('../../fonts/gotham/GothamBold.ttf');
+  src: url('../../fonts/gotham/GothamBoldItalic.ttf');
+  src: url('../../fonts/gotham/GothamBook.ttf');
+  src: url('../../fonts/gotham/GothamBookItalic.ttf');
+  src: url('../../fonts/gotham/GothamLight.ttf');
+  src: url('../../fonts/gotham/GothamLightItalic.ttf');
+  src: url('../../fonts/gotham/GothamMedium.ttf');
+  src: url('../../fonts/gotham/GothamMedium_1.ttf');
+  src: url('../../fonts/gotham/GothamMediumItalic.ttf');
+/*  src: url('../../fonts/gotham/sht.ttf');*/
+  font-weight: normal, bold, lighter, bolder , 100 , 200 , 300 , 400 , 500 , 600 , 700 , 800 , 900;
+   font-style: normal, italic, oblique;
+
+}
+
+
+
+/*@font-face {
+  font-family: 'montserrat';
+  src: url('../../fonts/montserrat/Montserrat-Bold.ttf');
+  src: url('../../fonts/montserrat/Montserrat-ExtraBold.ttf');
+  src: url('../../fonts/montserrat/Montserrat-Light.ttf');
+  src: url('../../fonts/montserrat/Montserrat-Medium.ttf');
+  src: url('../../fonts/montserrat/Montserrat-Regular.ttf');
+  src: url('../../fonts/montserrat/Montserrat-SemiBold.ttf');
+  src: url('../../fonts/montserrat/Montserrat-Thin.ttf');
+  font-weight: normal, bold, lighter, bolder;
+   font-style: italic, oblique;
+
+}*/

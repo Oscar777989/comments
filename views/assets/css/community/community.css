@@ -1,0 +1,245 @@
+.edit_input_container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+}
+ 
+
+.form_edit{
+  display: none;
+}
+
+
+.f_comm{
+  display: none;
+}
+.comment_answer{
+    display: none;
+}
+
+
+.f_content{
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+.send_icon{
+      float: right;
+}
+.bg_answ{
+    background-color: #181818ff !important;
+}
+.answ_cont{
+  border: solid;
+  border-width: 1px;
+  border-color: #2d2d2d;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+ .myb0{
+  margin-bottom: 5px !important;
+ } 
+
+ .timeline-body_answ{
+/*  margin-bottom: 5px !important;*/
+  margin-left: 70px;
+  margin-top: -34px;
+  margin-bottom: 8px;
+ }
+
+
+.com_user_answ{
+  border-radius: 50%;
+  margin-bottom: -22px;
+}
+.img_comment{
+  border-radius: 50%; 
+}
+.myb0_answ{
+  margin-bottom: 5px;
+}
+.time_answer{
+    float: right;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: -13px;
+    margin-right: -19px;
+}
+
+.form_publication{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-header_answ{
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 600;
+    color: #333333ff !important;
+}
+
+
+.timeline>div>.timeline-item>.timeline-header {
+    border-bottom: none !important;
+}
+
+
+
+.timeline>div>.fa, .timeline>div>.fab, .timeline>div>.fad, .timeline>div>.fal, .timeline>div>.far, .timeline>div>.fas, .timeline>div>.ion, .timeline>div>.svg-inline--fa {
+    left: 11px !important;
+}
+
+
+
+
+
+/* ... (estilos previos) ... */
+
+.comment_input_container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img_comment {
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+.comment_user{
+  border: solid;
+  border-width: 1px;
+  border-color: #2d2d2d;
+  border-radius: 5px;
+  width: 90%;
+}
+.comment_user {
+   flex: 1;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: #2d2d2d;
+    border-radius: 5px;
+    background-color: #181818ff !important; /* Cambia el color de fondo del input */
+    font-family: 'montserrat'; /* Cambia el tipo de fuente */
+    font-style: normal;
+    font-size: 14px; /* Ajusta el tamaño de fuente si lo deseas */
+}
+
+.comment_user::placeholder {
+    font-style: italic; /* Aplica el estilo italic al placeholder */
+}
+
+.send_icon {
+    flex-shrink: 0; /* Evita que el botón de enviar se encoja */
+    margin-top: -3px;
+}
+
+/* ... (estilos posteriores) ... */
+
+
+
+
+.like_icon{
+  margin-right: 4px;
+} 
+.comment_icon{
+  margin-left: 10px;
+  margin-right: 4px;
+}  
+
+.likes_text{
+  color: #333333ff !important;
+  font-size: 14px;
+  font-weight: 800;
+}
+.time_color{
+  color: #333333ff !important;
+}
+
+.timeline>div>.timeline-item>.timeline-header {
+  background-color: #141414 !important;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  color: #333333ff !important;
+  border-radius: 7px 7px 0px 0px;
+}
+
+  .timeline-item{
+    background-color: #141414 !important;
+
+/*    border: solid;
+    border-color: #2d2d2d;
+    border-width: 2px;
+    border-radius: 13px !important;*/
+  }
+    .timeline-header{
+      padding: 1.5rem 1.5rem 0rem 1.5rem !important;
+    }
+
+   .timeline-body{
+      padding: 0.5rem 1.5rem 0rem 1.5rem !important;
+    }
+
+   .timeline-footer{
+      padding: 0.5rem 1.5rem 1.5rem 1.5rem !important;
+      border-radius: 0px 0px 7px 7px;
+    }
+
+
+  .timeline-header, .timeline-body, .timeline-footer{
+    background-color: #141414 !important;
+    color: white !important;
+    
+  }
+
+/* ============================================================================================================  */
+.img_comunidad{
+	width: 100%;
+}
+	.timeline::before {
+    border-radius: 0.25rem;
+    background-color: #2d2d2d;
+    bottom: 0;
+    content: "";
+    left: 25px;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    width: 1px;
+}
+.img_comunidad_title{
+	width: 60%;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.com_user{
+	border-radius: 50%;
+  margin-bottom: -70px;
+}
+
+	.com_border{
+		border: solid;
+		border-width: 1px;
+		border-color: white;
+		border-radius: 0.5rem;
+	}
+
+
+
+	.timeline>div>.timeline-item{
+		background-color: transparent !important;
+	}
+
+
+.new_topic{
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem !important;
+  margin: 0px;
+}

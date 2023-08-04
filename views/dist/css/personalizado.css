@@ -1,0 +1,225 @@
+
+@font-face {
+  font-family: 'chaneyultra_extended';
+  src: url('../../fonts/cue.eot');
+  src: url('../../fonts/cue.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/cue.woff2') format('woff2'),
+       url('../../fonts/cue.woff') format('woff'),
+       url('../../onts/cue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'GeogrotesqueCyr-Regular';
+  src: url('../../fonts/GeogrotesqueCyr-Regular.eot');
+  src: url('../../onts/GeogrotesqueCyr-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'chaneyultra_extended';
+  src: url('../../fonts/cue.eot');
+  src: url('../../fonts/cue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*{
+  font-family: 'chaneyultra_extended';
+    color: white;
+}
+
+
+h1{
+    font-family: 'chaneyultra_extended';
+    color: white;
+}
+
+input, select{
+  background-color: black !important;
+  color: white !important;
+}
+
+option{
+  font-weight: 300 !important;
+  font-size: 0.8rem !important;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*  margin: 2vw;*/
+  border-radius: 20px;
+
+}
+a{
+  color: white;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.list-group{
+  flex-direction: row;
+}
+
+.list-group-item{
+  display: flex;
+}
+ 
+.barra{
+  width: 50%;
+ /* background-color: red;*/
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+  height: 20px;
+}
+.progress1{
+  background-color: white;
+  width: 33.3%;
+  height: 100%;
+}
+.progress2{
+  background-color: none;
+  width: 33.3%;
+  height: 100%;
+}
+.progress3{
+  background-color: none;
+  width: 33.3%;
+  height: 100%;
+}
+.backg-selPrograma{
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+/*    width: 100vw;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.barr{
+  margin-top: 120px;
+/*  background-color: red;*/
+width: 100%;
+}
+progress{
+
+  width: 50em!important;
+  background-color: red;
+}
+.title{
+  margin-bottom: 10vh;
+  margin-top: -10vh;
+}
+.subtitle{
+  color: white;
+  font-size: 35px;
+  margin-top: 190%;
+}
+.card1{
+  background-image: url("../img/Background100k.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    border-radius: 20px !important;
+    width: 250px !important;
+    height: 350px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-bottom: 15px !important;
+    margin-right: 1vw !important;
+    transition: 450ms;
+}
+.card1:hover{
+  transform: scale(1.1);
+  /*transform: translate3d(60px, 0px, 0px);*/
+    opacity: 1;
+    box-shadow:  0 0 4px #fff, 0 0 6px #fff, 0 0 8px #b09d67, 0 0 10px #b09d67, 0 0 12px #b09d67, 0 0 14px #b09d67, 0 0 16px #b09d67;
+/*    transform: translate3d(-30px, 0px, 0px);*/
+}
+.card-blocked{
+    background-image: url("../img/BackgroundBlocked.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+    border-radius: 20px !important;
+    width: 250px !important;
+    height: 350px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    /*    padding: 0.5rem; */
+    margin-bottom: 15px !important;
+    margin-left: 1.7vw !important;
+}
+
+
+/*.nivel{
+  padding-top: 110%;
+}*/
+.read{
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60%;
+  margin-bottom: -250px !important;
+}
+
+@media (max-width: 1200px){
+
+    .read{
+      font-size: 3vw;
+      margin-bottom: -35vw !important;
+    }
+     .list-group {
+      flex-direction: column !important;
+      width: 90%;
+     }    
+/*li{
+  margin: 0px;
+}*/
+      .backg-selPrograma{
+          height: 105%;
+          width: 100vw;
+          display: flex;
+      }
+
+      .card1{
+        padding: 0.5rem;
+        width: 45vw !important;
+        height: 60vw !important;
+      }
+      .card-blocked{
+        padding: 0.5rem;
+        width: 45vw !important;
+        height: 60vw !important;
+      }
+      .title{
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+}
+
+@media (max-width: 576px){
+     .list-group {
+      flex-direction: column; !important;
+     }    
+
+}
